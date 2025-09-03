@@ -8,13 +8,13 @@ print('Seu IMC é: ' + str(imc))
 
 if imc < 18.5:
     print('Voce está abaixo do peso normal!')
-elif imc < 24.9:
+elif imc < 25:
     print('Voce está no peso normal!')
-elif imc < 29.9:
+elif imc < 30:
     print('Voce está com excesso de peso!')
-elif imc < 34.9:
+elif imc < 35:
     print('Voce está com obesidade classe I')
-elif imc < 39.9:
+elif imc < 40:
     print('Voce está com obesidade classe II')
 else:
     print('Voce está com obesidade classe III')
